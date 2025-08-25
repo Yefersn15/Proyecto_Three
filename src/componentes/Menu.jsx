@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <nav className={`navbar navbar-expand-lg ${themeClass}`}>
       <div className="container-fluid">
-        <Link className="navbar-brand text-white" to="/">Proyecto Three</Link>
+        <Link className="navbar-brand text-white" to="/Proyecto_Three/">Proyecto Three</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@ const Menu = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/">Inicio</Link>
+              <Link className="nav-link text-white" to="/Proyecto_Three/">Inicio</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-white" to="/Hooks">Hooks</Link>
