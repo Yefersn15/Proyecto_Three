@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
             <ThemeProvider>
                 <Header />
                 <Menu />
-                <main>
+                <main className="bg-body-tertiary">
                     {children}
                 </main>
                 <Footer />
