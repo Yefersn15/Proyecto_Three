@@ -1,5 +1,5 @@
 import './App.css';
-import Layout from './componentes/Layout';
+import Layout from './componentes/LayOut';
 import Rutas from './componentes/Rutas';
 
 function App() {
